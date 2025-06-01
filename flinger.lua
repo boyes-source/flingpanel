@@ -2,7 +2,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 	Title = "Scripted by boyes!";
 
-	Text = " ";})
+	Text = "thanks for using my script! <3";})
 
 Duration = 90;
 
@@ -39,7 +39,7 @@ end
 
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "loaded",
+		Title = "loaded!",
 		Text = str,
 		Icon = "rbxassetid://0",
 		Duration = dur or 3
@@ -132,4 +132,4 @@ TextButton.MouseButton1Click:Connect(function()
 end)
 
 --//fsddfsdf
-notif("Loaded successfully! Created by aarboyess", 5)
+notif("Loaded successfully! Created by boyes", 5)
